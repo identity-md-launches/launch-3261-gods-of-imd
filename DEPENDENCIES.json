@@ -1,0 +1,155 @@
+{
+  "format": 1,
+  "note": "Pinned upstream sources vendored as ordinary files. Source retrieval normalized whitespace; hashes describe the delivered files.",
+  "packages": [
+    {
+      "repository": "https://github.com/OpenZeppelin/openzeppelin-contracts",
+      "version": "v5.1.0",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "lib/openzeppelin-contracts/LICENSE",
+          "source": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.1.0/LICENSE",
+          "sha256": "e5c4c410a34350aadbbf04ec688402d20a63a118ed305445f3341a1006cf4c42"
+        },
+        {
+          "path": "lib/openzeppelin-contracts/contracts/interfaces/draft-IERC6093.sol",
+          "source": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.1.0/contracts/interfaces/draft-IERC6093.sol",
+          "sha256": "479e13f34ad228c5346e6f868fb36f55a59cf0988717c3228f7fbf663e677dcb"
+        },
+        {
+          "path": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+          "source": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.1.0/contracts/token/ERC20/ERC20.sol",
+          "sha256": "b6106804cbde48aa6a1d47b11fb6aa5ffe41c8e7ece4bf37dad6aedda70d0cb8"
+        },
+        {
+          "path": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+          "source": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.1.0/contracts/token/ERC20/IERC20.sol",
+          "sha256": "100d2139105cdd710eb1925598e2325ebe29de569363946742c2b72cc8e755c7"
+        },
+        {
+          "path": "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+          "source": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.1.0/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+          "sha256": "d912176649ede8146ea1c18184bbba5e9e07eb1b35933684f80635eb5bda2db0"
+        },
+        {
+          "path": "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+          "source": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.1.0/contracts/utils/Context.sol",
+          "sha256": "b6a6a7b3430d0669bd99a5278c5b98a485c85c2f087841e11630838b6a6fe6dc"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/foundry-rs/forge-std",
+      "version": "v1.9.7",
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        {
+          "path": "lib/forge-std/LICENSE-APACHE",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/LICENSE-APACHE",
+          "sha256": "138b75ace98fb4dd76820391aded4efe05c8276950bb1cc0e5c52adbaa314762"
+        },
+        {
+          "path": "lib/forge-std/LICENSE-MIT",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/LICENSE-MIT",
+          "sha256": "d75417c6a40fbc817e04ffdc8cf8e3377d23101bcceac77c51590dc64a237d2b"
+        },
+        {
+          "path": "lib/forge-std/src/Base.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/Base.sol?raw=1",
+          "sha256": "8abb28e396406331504958f89707e40691d7e56f2f2f10f86417243a3ed20d30"
+        },
+        {
+          "path": "lib/forge-std/src/StdAssertions.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/StdAssertions.sol",
+          "sha256": "0e7b010d0bdca8d2db0e7894ae7035767fc40421016fd753f74a3a6f15f89798"
+        },
+        {
+          "path": "lib/forge-std/src/StdChains.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/StdChains.sol?raw=1",
+          "sha256": "d9758b49daf7b342da1f84dd842544bf6a44a054f33eaf34388e5898d5cdb129"
+        },
+        {
+          "path": "lib/forge-std/src/StdCheats.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/StdCheats.sol",
+          "sha256": "ba6345f92399916cb9ba6a3b01fcfdbc33fb62e3b4d068336c068cbd9508d6b9"
+        },
+        {
+          "path": "lib/forge-std/src/StdConstants.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/StdConstants.sol",
+          "sha256": "0eb6a1ead49311edd1eb30b920b057f7d6238edf4910d52a5231a7ecf785d201"
+        },
+        {
+          "path": "lib/forge-std/src/StdError.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/StdError.sol",
+          "sha256": "66daaced315ea16dc7021eed1a3d6b84cba7f20e69dca2e3a013f771816f123b"
+        },
+        {
+          "path": "lib/forge-std/src/StdInvariant.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/StdInvariant.sol",
+          "sha256": "dd80f2e5ddc581b456b5b3072542f83ae3d81b1abb55189d491a15600b02ea3b"
+        },
+        {
+          "path": "lib/forge-std/src/StdJson.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/StdJson.sol",
+          "sha256": "17a788cc58b3d8c70fd53de97442bc838c778871befa6a4ee5c1c259e605c060"
+        },
+        {
+          "path": "lib/forge-std/src/StdMath.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/StdMath.sol",
+          "sha256": "7fb63fbfa026451171139ae0ca35f78ca88d59f7a868fa32a0019c491551f4ab"
+        },
+        {
+          "path": "lib/forge-std/src/StdStorage.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/StdStorage.sol",
+          "sha256": "d609150abd2f3c448530f99782c2b7ee9d4944bc6d8ff817b7fff86fed5e0fde"
+        },
+        {
+          "path": "lib/forge-std/src/StdStyle.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/StdStyle.sol",
+          "sha256": "06c00ee0442d241250ef8228bcdc47654df51fdc74a0a5ae953236feeb2c92db"
+        },
+        {
+          "path": "lib/forge-std/src/StdToml.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/StdToml.sol",
+          "sha256": "e6560a6255968b75bbad4d6d27fc39a3fd7440cd6eae3c07bd3e68ce9a06eeeb"
+        },
+        {
+          "path": "lib/forge-std/src/StdUtils.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/StdUtils.sol",
+          "sha256": "5fb50311ba20dbb636e36699335a7fdc36e545f6334a8ce8541e8130835ddb0e"
+        },
+        {
+          "path": "lib/forge-std/src/Test.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/Test.sol",
+          "sha256": "fb42ae06ed53cb3062c17e409336644dc5d1e8b664e1e28a13a9728b441814c6"
+        },
+        {
+          "path": "lib/forge-std/src/Vm.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/Vm.sol",
+          "sha256": "fd49483943bb4abd4ee04d361b9b2a13d9c2a75d89749870970027ee69e679d8"
+        },
+        {
+          "path": "lib/forge-std/src/console.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/console.sol",
+          "sha256": "ac8f9b1b4c10ec179d93b5a7a53f55605dcd5f5c383620a2d39401a0ec8ac01e"
+        },
+        {
+          "path": "lib/forge-std/src/console2.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/console2.sol",
+          "sha256": "3bbe2e07ec53d8cf9c091667fe10234fcb3e2b45eab2c711002188806f46e779"
+        },
+        {
+          "path": "lib/forge-std/src/interfaces/IMulticall3.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/interfaces/IMulticall3.sol",
+          "sha256": "07b5265980e1977f4960789d588ff958457925dc12113d3da850e22353fd4895"
+        },
+        {
+          "path": "lib/forge-std/src/safeconsole.sol",
+          "source": "https://raw.githubusercontent.com/foundry-rs/forge-std/v1.9.7/src/safeconsole.sol",
+          "sha256": "a87a67229b34dceec6e63b5549ed4dfc4eae522533a0bc00df29002c30f69f69"
+        }
+      ]
+    }
+  ]
+}
